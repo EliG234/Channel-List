@@ -5,12 +5,10 @@ def test_stagebox_manager():
     stagebox_manager = StageBoxManager()
 
     # Step 2: Load stage boxes (inputs and outputs) with some data
-    box_dict = {
-        "SB1-IN": 2,  # 2 inputs on stage box 1
-        "SB1-OUT": 2,  # 2 outputs on stage box 1
-        "SB2-IN": 3,  # 3 inputs on stage box 2
-        "SB2-OUT": 3   # 3 outputs on stage box 2
-    }
+    box_dict =  [
+        {"line": "SB1-1", "type": "OUT", "total": 2},
+        {"line": "SB2-1", "type": "OUT", "total": 2}
+    ]
 
     # Load the data into the StageBoxManager
     stagebox_manager.load_stageboxes(box_dict)
