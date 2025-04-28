@@ -1,0 +1,805 @@
+~/workspace$ which python3
+~/workspace$ ls /nix/store/*python3-3.10*
+/nix/store/240mfc3v7iqbqfyfczcjp2ajk65c9kss-python3-3.10.8.drv
+/nix/store/6n2npdb5lswwymsl5winrdlg9mzqy1nx-python3-3.10.11-env.drv
+/nix/store/7mmb11fndfczlbjx54w7r3qgqy6jc8zx-python3-3.10.11.drv
+/nix/store/bzp47wmbv55ps67g33f28bw8gvrm6ca9-python3-3.10.11-env.drv
+/nix/store/fg61qa1knrq7llv4zjvd8kayxddgxw7y-python3-3.10.0.drv
+/nix/store/fi4fngsszcczrm3hfwbf789qmyd9vq0c-python3-3.10.11-env.drv
+/nix/store/j9w8lcpysvy8r6fxcpbnpq85vjy36018-python3-3.10.8-env.drv
+/nix/store/jfjgwi8g8klbljsapwcq9zh62s9yf7ja-python3-3.10.11-env.drv
+/nix/store/kxfzn11kf6nh0igzsgfm72zfxj77lsda-python3-3.10.8.drv
+/nix/store/l0niyjfvj6hvrpkf9aqa4a24wzp1hlpg-python3-3.10.11-env.drv
+/nix/store/lqzn90kx74282c3mjrh6s0wkkjm7dddh-python3-3.10.11-env.drv
+/nix/store/m5l7p9m0i2v04kkd9g8m50hpdgjmrz03-python3-3.10.11-env.drv
+/nix/store/nn2fazlg1xiig87azcn4zng47i7lk6cp-python3-3.10.8-env.drv
+/nix/store/pygbm05pdmk2lhfz61dz5svz3vpjqi3f-python3-3.10.4.drv
+/nix/store/q53ssd8rlb0jmkay24rzpipavwcvrbd8-python3-3.10.0rc1.drv
+/nix/store/vh6cyjznsf19qr38l6bdrb8lrijglrz3-python3-3.10.8-env.drv
+/nix/store/vn0syqqrha89wsy24iwjy0ci5qcx493w-python3-3.10.8-env.drv
+/nix/store/xspjh0gx7372wx9jjydgp6lfl74g860b-python3-3.10.8-env.drv
+/nix/store/y4r3r61y6a9f22n172wx7mxh63hcrvnf-python3-3.10.8-env.drv
+/nix/store/zmd3m884i47cx0f3ii922kizxyxbz4hj-python3-3.10.11-env.drv
+
+/nix/store/02ch32hi6qllvvvyvzaxx3czc1accqm5-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/05civgzw63mr1dlr5m5zlahz2ndiqq88-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/0cb504wav16h5jkl09vx0jsg4v1hpb3b-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/0cwcqxb5170wjmgf6qni3yqx506nb6ir-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/0iklyxandpqn7bgx55lz55dj4sf7k5xc-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/0jjl154in7g83sw3yxlrixsbb1m6gp0b-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/0k9f1746wrc8a1zc9gy2n108zjfq423s-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/0qa1d5lmmi61m3p8lqz91xlz0l3vf826-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/0qxdinykph6jj94wf2zzgig9956cbrlb-python3-3.10.4-env:
+bin  include  lib  share
+
+/nix/store/0rn9fk1am86gb77xcimp3j7pyblrgrwl-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/11fqzlq91vb5fm0s5cckb0iqhni0y4ic-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/11mld60a81scq6cvddyl8bmdafsknfmq-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/19j3cad6qb45xaahl0f4j6ql93a9gcpb-python3-3.10.11-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/19p5bpvplh27z3q9diznip0r14mbbqxr-python3-3.10.14:
+bin  include  lib  nix-support  share
+
+/nix/store/1b3xlnpzxcayxp1cgzhbfpkzc89diy09-python3-3.10.14-debug:
+lib
+
+/nix/store/1hch29hrhp06a4gydjy051iqjhbg48gq-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/1jk4rik9alba0ksjkfvjbh879p549v42-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/1kfsw0hfknm56wjzlplbhm5ca8z2jvxp-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/1m3yk505xx6q4wfimd03kmi8p1q48wj7-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/1rk505acglsw72i4kfva2m7g2j8vmjgz-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/1v0kp0b9hn7r2p45dljl9fpxbbmlx662-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/28jm976simf8j6f64c7r2qcbzaj1jpak-python3-3.10.11-debug:
+lib
+
+/nix/store/2a5gpg70dbmk27wsx3laq7n2wmjg0fg1-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/2ad4a0ngsjc0k83wwiypypjddvrv3kq8-python3-3.10.14-debug:
+lib
+
+/nix/store/2fmavj1rk4kqyqxjzac5i0icrai107sa-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/2lcghx82nl7wva0f4x266gxc1g4k1vfs-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/2xwy0ay8vb2qmaszk2gz802wz4j2k22b-python3-3.10.14-env:
+bin  include  lib  share
+
+/nix/store/2yrcmsj1riz5psblvza5n5krm3jqsvd5-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/32p7a0pz8l9y86si7ciy2byygwr7rk52-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/3472rdh5s1w4z62yijjars2vccm0cy4k-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/37w6qmki5iiqwlqb407hpv6jrqsriwjw-python3-3.10.11-env:
+bin  etc  include  lib  sbin  share
+
+/nix/store/38xh3qjy3yrc3qr5jhvdak9qhiwknz7p-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/3a6mf1jf2bfm11n7ckrqnqjg974cxjbm-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/3gmhrdwzm59jznwarz1j8ih8fqxb2c04-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/3h4pkq5n0pxh6wbvxnvf2lzwsjpih2hs-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/3prp3f2di0fib3k3nnrp3a175nm75y51-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/3qs8h0vdr9w3mk01j7yjwpld2l4llc0h-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/3vw3ppc7fd6v12k9xvxcd873bvbrl6lw-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/3wvxjam05945dpbwyl9q7jgb602j7qjj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/3ywdcdzmiadfxkx6b4ac4v44k1bl236p-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/43h5drldjj7bcjl55f7994n34mgf4zix-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/4ixk363fs2dkz94zfnh67a7fvz393aik-python3-3.10.4-env:
+bin  include  lib  share
+
+/nix/store/4m8dixzhn4gj5mff68s9fw0qairl257q-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/4sqq5kb3jrw9m5lmjfivifanlj0xlg2g-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/58g5yqmk3r35w5aqk2smj07ay74ldsg3-python3-3.10.11-env:
+bin  etc  include  lib  sbin  share
+
+/nix/store/5gphqfkb2a62l61j4xpxqh9pap443mvh-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/5hi9fw0frzfr8qfrys633y4zxmwpbz67-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/5k0xcfy0cj1kalyva8s64bszp7mvll0j-python3-3.10.8-debug:
+lib
+
+/nix/store/5l195k5mlsx959qrpbrih39ljpav0qy0-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/5lsgili2f3pff68wii5f56p6dzhv554f-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/5v7bci91p3gk685yki6q7azmfwzldy0h-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/5vjbmzmizrlgp7km8z6ngpibg065qiwz-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/5z0xl8rm91sar31yrxkr250gyj338nrx-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/5z82if4mnbzvvj3ywcizg5b9jayaqv28-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/6awg180lhkg987vmj3dq478k8q8dr745-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/6s3m4g5mjcbfvihkq5qm8bydqifvl6a0-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/6s6073yxv839z5h1jph3rglmk1ip46nj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/6yh87djgsphn0iv53i0wki630zqjwcva-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/7c2d4f13a93vf8xx548czn0v0hsgrrkv-python3-3.10.0:
+bin  include  lib  nix-support  share
+
+/nix/store/7gv7g3y03k7aa4k7v5rdvw510g06dq93-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/7m2wvwgm7xlyky4y6vc0bshw1vlhwahx-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/7nkn2ssasvgykqxx88pxclss3s5vnrfh-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/7pb9p6mwqs6amzfa1fwrkmzpvs8g7gjn-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/7ph4d6njc4zfh0hncwyx2lz07hlcprix-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/7qh07lva1lg098qaghlb63hmpa0fs27k-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/7rxi06lp2psclg9jnpq8r7nzazhdnn86-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/80hz6ck8wxbh57bss10a2k2q5c4plidp-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/8hl7hygmjds5ci7wznk14qmpmsgbn7a8-python3-3.10.4:
+bin  include  lib  nix-support  share
+
+/nix/store/8m4qkabjmd791mz6y9hxl5ryvd0jlj62-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/8rqbafvbzx5zaj7zp01hbhd3dqfwjkhm-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/8xfy9iyfhlaqpsh6ybqipr2zjgg1cw4i-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/8ykxpg5l6hkcakljf7grcbjdq5m3g573-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/95j7bx0w455kplr3abb4sb9c1mxhak5f-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/9d90vvka6b1jyanxmnxnfgiasm743qrm-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/9gp59klbh85lq3h87xx0kbzsh20w780x-python3-3.10.8-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/9kirrigqx992bx0capq3l360si3r5ins-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/9kzgdmf4q5vxshisils7pzgc6342pcsy-python3-3.10.0:
+bin  include  lib  nix-support  share
+
+/nix/store/9mpd9kdzcykqljn2f921cqvmcglldnad-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/9n24fw7qicjw23cflzsj74fh2xbxh9xf-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/9rn65xr0j9dhgvz7kvidf2rq2qbvczw0-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/9x6kjq8z5dwcg145l7k2r5lvvb24kckp-python3-3.10.13:
+bin  include  lib  nix-support  share
+
+/nix/store/9yyywhjcdbsyk7bvamrgsniymbxzad1a-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/a13xsgwzpn8d4jfxwfj3w8idhi51q69v-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/a6ikmwxqn0bsgklzy0vb722w645yc8sl-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/a781ifdi4ljhrr52219zgg759fzs1cml-python3-3.10.8-env:
+bin  etc  include  lib  sbin  share
+
+/nix/store/a9kns7j7993qw6d2jc5jhkv8c5as4wbs-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/agap41rd6jab6qabmr37vm5wjglir0vm-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/an7g9h7lsdyl97527zky0yzs1nny01cc-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/arcc455zgiznvqjqj2h84bacwb32ha0d-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/asn27xrzdzza9ky7khxddd2fk33rqhfw-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/aym9j186345v2gf7rndilcsxi4fn2cxh-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/b03kwd9a5dm53k0z5vfzdhkvaa64c4g7-python3-3.10.13-env:
+bin  include  lib  share
+
+/nix/store/b0p0znqk0gd91sqf6p81cbah901hf8qg-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/b9z468qvsfl9r4gi9qxrx3bnrxh9ymjn-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/bfhjlfab5594hmhhd7cx6iks3s6w27d9-python3-3.10.11-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/bfypscbzmbprzh8b5cwr17z2ing2r0qw-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/bkmrrq6dkq2sfl3kq8s1jnrqryy6n690-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/bs5fzqbva5q5yw88dfkq7azxqkzg7sr4-python3-3.10.4-debug:
+lib
+
+/nix/store/c4apbq4ab3lp0hwyq6bl7qc0n670idg0-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/c6w59nbciw3hfhz0ksyqiwmd8hsj75fg-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/ccfralvpd2jzi182mx57w25b2g2kdr40-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/cfhdkij4fkdligm6nj2bh98b30fa8fip-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/cj0dn7xkibxnqgqch4qnqgw7m0m64pls-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/cmckm2a8bhziap65d4zxy97j9b0rlj50-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/cnjdqjwx7cb0a1ml1jdg7amb6sdsf2b8-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/cv8qfyb0zgq3ysh036gvrp1jpab3g952-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/d1ld9qrq3gn1ndnv1dw595p84m0w2zsb-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/d6mdn1z2mnxm8wdchkqvk37sh8k0chs9-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/dc3qb9pqp1hacgzklxz8qjw0kcl5xsga-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/dcax9j2mddmcp4xi412wpj4agi4ycpxx-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/dgkwcww9ygi20h3hsrjh645q39xa7fg7-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/dj92sb5jqrqj8gc34p4w5cp66nbhib6d-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/dpnmjq6i673sy1hy8jlwrfqns6vabs9a-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/dr0pavgdg15dcj36xbg15xgs5q296mdh-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/drp54fhr716fzcra5906p26aglc1wzj6-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/dscg5vvia3s793pnnvpbz9rda9c7ybjl-python3-3.10.14-debug:
+lib
+
+/nix/store/f5prw9mm064yp8g96fcals3mrsadysig-python3-3.10.16:
+bin  include  lib  nix-support  share
+
+/nix/store/f6hymnvs9mz53vr4b4ilzi215iidkdvi-python3-3.10.14:
+bin  include  lib  nix-support  share
+
+/nix/store/f8kzkyl0fjci3r1l53hs1w6p72hmgx3k-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/fff7977nlsji5mr64fq4ryyir9kimrlb-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/fqzx2f8nr2n12a50sl1llbd1wph4aqi7-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/fsz6lp3z6bskx2aidcaqkqyfgi5minf0-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/fy1g4ig5hvwhyjwcxr80l7xi1r2mdjck-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/g0j8kbgafp2hbfn0yam69pzn4fl9dl5s-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/g0wdj0w02xp7cxbc8n5v6fgr7dnkghwx-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/gi9lr0jminsxbr439z03xsqnjr5z3bx2-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/gjy6iwn48rq76gi5hz9r9wfwp49wx4v3-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/gq0gxzj1mhbaqpmxi8h8g3n9z5hzck9c-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/grgmk9gh6argad6sq7syjbq5ikvxcsjw-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/grxrjvps6ak7m00cdlacb4ligl3j83i0-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/gwzpr8mpwsmz1r3xlxyb8ackmfal7xla-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/h31x3zrwrws1c3392919br8g9isvhh4x-python3-3.10.13:
+bin  include  lib  nix-support  share
+
+/nix/store/h7yzy4q0vv0vy257zzwwkz8gv4pwphma-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8:
+bin  include  lib  nix-support  share
+
+/nix/store/hfwmhm35lwrdnzifz2rbfavlxkg7sc6s-python3-3.10.16-debug:
+lib
+
+/nix/store/hg8z7jqs9pwg114dh6s34iqrv5aswmrw-python3-3.10.14:
+bin  include  lib  nix-support  share
+
+/nix/store/hhc9gpy18c77zhfzgykj0hziy9hy0a3b-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/hhph38b4ilfllypf0cyiy6kbpx1lg32c-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/hjr5jmx9h04fpz1s3cfgflnjb0s2gpp7-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/hl80bfyad6sac7ml65b82jrbdpzrxizg-python3-3.10.14-env:
+bin  include  lib  share
+
+/nix/store/hm2lz12vark4dam5138mkcrijy7ziipz-python3-3.10.8:
+bin  include  lib  nix-support  share
+
+/nix/store/hpm6jaz1xdrxvcbdvhsai746naixs0dn-python3-3.10.11-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/i3444237cx81argjyrrgchx8pv6xicg9-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/i6l1jml182didw44syqbz6sxaw2vwpa3-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/i9zvdzwpw4cn0dbag0r837i9c2g1h6qy-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/ic3kac1g6b2sxmyhgdwxbf16w1dbvjxs-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ifdv78njybnwyag2pvdhknjwkwjmsnw7-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/ij43hg97wmh22wk0pbffiqlavn4i62k9-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/j45vvfifkxzqakwfr8ayf4xywhilqz57-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ja6svfbac28wkfrfvlhliqmb8z16akgm-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/jbdqfdl4mzw082nqxk8iq5dy2i6c1mmj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/jd5ha7f9q24vrbks8h73fppvwd7azdgp-python3-3.10.4-debug:
+lib
+
+/nix/store/jjmlkh9kcxh1k728xcyha5y8dn53b1p6-python3-3.10.11:
+bin  include  lib  nix-support  share
+
+/nix/store/jy4b57k2i289slf1rwkjwdvd9c0rj1ax-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/k3q4q9p393wnxqr6wdykadv246rajah9-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/k7nss7hvham0cr6g1w8mg0h0pw74p0gj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/kjwdqza1jlzhlpw1v1mbl7cmd7iy9923-python3-3.10.11-debug:
+lib
+
+/nix/store/kqmg9ngbr3z8ha7h10glv9mqihcjmmk5-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/kqwn6n96xp7mbb71zbzkmmw105cw0brx-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ky9jnfd87xh2ryzbm9b6l2gjsj45rk13-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/kyi9miafbb2fd6c2vqrzvnsgsqsmcyaq-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/l8xlbjrhdbqb33317fv7p0hbm9rhpyh6-python3-3.10.0rc1:
+bin  include  lib  nix-support  share
+
+/nix/store/lc77h2y0p7l69114f1mafbn6l3yc18jv-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/lknq3m3mk4x10d454g86fg6q3cxj1c5g-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/lw1wmy04yl8z2s48j5axianp811vvkj3-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/lwik4mr0ag8c6acmknmifbp8aj0i0vyv-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/lwzzgbnj41d657lpxczk6l5f7d5zcnj1-python3-3.10.11:
+bin  include  lib  nix-support  share
+
+/nix/store/m002w3swlcy2sig3gsbxphqmlslmn5ap-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/m0n4n8irlfi6l74rvysjp6s7sb2gbq72-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/m229m6nh7yfm41dbgcq25j8prq2k7lyg-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/m6srk01z0bm3x83x4y4f8nwag7vkyigp-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/m7p1xh7zszwan2434lwvsdix7ag3vrm6-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mb2k8aw30666an078h34zp1j0ddp09yr-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/mckxb3xbglp45jiv3gdb3ymqwrjr662j-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/md25nc666zhr3yh2cbli9nmw0ma1zgq4-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mgbl6w9a81fs4rkn7292ar20nhqzf6iq-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mjkqqrldh7s8ramfhm9v3yjy6bigky5h-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ml0qn608wry3lzrwcyjn9gzvmg3iz97p-python3-3.10.8-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/mn5qhaq7w654qmhwckprwm61v308qc3f-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mnlh2078ldd0d2z8c60qygd8h0xcdsg9-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/mp568zly2mfhsgjbvfyjca25v0xq6mqb-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mppyghghganl93hs2i0vz3ff91kprx3w-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mwg2ga1653hj70396mw8m693mfh2pwf1-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/mwgbw2i96n64rc8drzixdslb3mw25v3v-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/mydw6fsk7aqrcij8jsqs1f6ls4va0c8n-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/n0rx5pzii01573mymrs5g79hn1l7g750-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/n6f7y3br2yim5nv95ql98axbwq6img13-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/n7ny3x2id21y609b93r9zflfx86qx54h-python3-3.10.8-debug:
+lib
+
+/nix/store/nafx5fbrv0sqwr2k08v63r6miw467ggh-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/nc7fjr4azfcjmpg6aacx2kd8xlms9r33-python3-3.10.0-debug:
+lib
+
+/nix/store/ngmgd28wdcpqdvyw2bmhzplg1g3m59q4-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/nh9h16rzc0kv9v4fhvsai3c8q6y9r0qf-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/np7jh05vwvmd7r0qjgwvxbz0hs9cn0cs-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/nrs5q8d4gxg3dwfm4mxrp4d1wrs8xv7w-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/p21pzsa83qskwikmd4m7495j63d6i0pj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/p3a9gbsipl9ajfnxq27zpi1jq8azyq8x-python3-3.10.0rc1:
+bin  include  lib  nix-support  share
+
+/nix/store/phw6ryrvj3lz05pgwmww11y9fwgsz8z9-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/pir9jld4763gw7h1j7xnkp0rppi5xll5-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/pn7w5p1w37ria9gmdmnc0lfi2qc581mc-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/ppdldh807yjwi8mqn9bwbnqv5cslb2cm-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/pwa2ww8j30l7ylq3nc0nw3zfjxldykbq-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/q373h0m89433ng7w99bym3gsrr95gxb0-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/qacip2lniy94a8hy3znzhy1nw3vpfz63-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/qdp19rz72l6m4jb3s2n80mdnw6kzk0r0-python3-3.10.14-env:
+bin  include  lib  share
+
+/nix/store/qhjc74y9y2lvcbrl743ir1vws5kv8f8c-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/qigkvlxvnyshaw6b8xw0zv0a64r8ckf5-python3-3.10.13:
+bin  include  lib  nix-support  share
+
+/nix/store/qlb1pg370bb647nj4dhc81y2jszvciz7-python3-3.10.16:
+bin  include  lib  nix-support  share
+
+/nix/store/r0dgdakfvqp6drhjh7psxfzwzwyvb3zj-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/r0ykj27xrxkz4hwrqysahp3xpkxnckya-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/r61hkiiz0yi7b26a35xbbi8yydm6nys3-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/rdm26jrnysmgf0fgapjjyfgbl8cq8rw2-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/rhgk28k0cxmw14s7kqnjyq69a1klcldz-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/rpxdc70acxm1pkpykci4hwy3sx7vmcwv-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/rq6m2lcajf744ik57wma48jdy57ijv3b-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/rrbvylhcn08pva55gxz9n4f6maybcr07-python3-3.10.4-env:
+bin  include  lib  share
+
+/nix/store/rwxj49zghamyhy07b67yhiq64bmznvmm-python3-3.10.14:
+bin  include  lib  nix-support  share
+
+/nix/store/rxmlpcg6swnxv751w6s6bdsdr8xzfaah-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ryk0h3rmb4dchaja5vqv56vajm6r00kf-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/s4ab5lf9xnjnj4fnmd9pz1gm0yxlpdgi-python3-3.10.16-debug:
+lib
+
+/nix/store/sik2gxkwgcd74r83271mb4i01fl0k9wx-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/sndcd7rxqwhspx4x7f6b6b3symljqh97-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/v735ni96np5mk99j9zyk0rl41xa1ng7w-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/vbjziq4id4m4vfpnz0xhaplblcryr73w-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/vg4k27grydmganxnzg4hb7msll381wqh-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/vi9iy1n8xdqfs3xjllmrnxraxg8wvpz2-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/vr71pwihbnp5yh6ml2ml5jnbkd77h2bn-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/vshw3zy7dbfpw7g6k6z8f4pmmhfkvs42-python3-3.10.14-debug:
+lib
+
+/nix/store/vzi0mvsxahvbv8vsa60jbxz022i1xx3v-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/w75a4skdzjs280igjv8pjh9bc6cq4nv9-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/wlciwr255gzrl7i1s3zffz9iyg9rfwdv-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/wmamgmfrs98c08cwj285lc9lvhhhilkq-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/wsdgwxb947qni741mknhv9fvbaabsn77-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/x15sx516kx8ln7av26acq8ygvb4i30x3-python3-3.10.8-env:
+bin  etc  include  lib  share
+
+/nix/store/x47vij2hsx2p1xv42vf4b3563d38n80q-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/x5vzjdqjp8l0xjzp8amc9i2ypj4zv4mv-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/x9wp64vwp0h9a85rxwaqalg96bfc7if0-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/xaasyqczvxm381cr3w72mm9k0wcq6zbq-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/xf54733x4chbawkh1qvy9i1i4mlscy1c-python3-3.10.11:
+bin  include  lib  nix-support  share
+
+/nix/store/xjnggfkm06gqg338l6k08zdp3q0hq2mn-python3-3.10.0-debug:
+lib
+
+/nix/store/xmii1z4k4bjqv7lfc3prhzvrfakw2b1a-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/xna6s8zdgvm1df6pjlq659cmcac999ym-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/xp6cyrsda9j408gwmglr7g7sampziiz7-python3-3.10.8-env:
+bin  etc  include  lib  libexec  share
+
+/nix/store/xq12q5wc5ncgd0xx9dxbzdvv31hfkgbx-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/xrp0gwc794j97c9amp5syzmx8va7rr39-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/xrs3m0ymsscgsb4k5r1d5x7rc9sg42b6-python3-3.10.4:
+bin  include  lib  nix-support  share
+
+/nix/store/xz2255mgxqnp3ijms3f3yb1n7x2d7fh5-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/y1pm1mr70wwdm0jlqdp5c8dcpf1n937n-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/y8c9b52y4j6ypg3gjw046k4clj2z89dy-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/ymipbp87k90a5hnldlvxd6rliakl9wr6-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/yxyf837ql7v89bcpmgaa7dymd53wg9qb-python3-3.10.8-env:
+bin  include  lib  share
+
+/nix/store/yyv9dk3p9azpfmyga6k3z44rip7dkhgf-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/z3gib0fzl6lzy6kb1irbjm489rliliyj-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/z7697jy6xp5w3nfpga62bkkqmq4imc2m-python3-3.10.11-env:
+bin  etc  include  lib  share
+
+/nix/store/z8ivxxyfkavc76va5aqbk47gjpk6kazp-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/zdba9frlxj2ba8ca095win3nphsiiqhb-python3-3.10.8:
+bin  include  lib  nix-support  share
+
+/nix/store/zhhf5700f54azlh0kgkivz06gcx11mb6-python3-3.10.11-env:
+bin  include  lib  share
+
+/nix/store/zim7wcf0xzkyjvw44ynycbi8zy1581ks-python3-3.10.14-env:
+bin  include  lib  share
+
+/nix/store/zkbpyw90x0y1k7xj29w80jx615hx5zq5-python3-3.10.14-env:
+bin  include  lib  share
+
+/nix/store/zshb17vbxgxcd9lshyrj72jiankm6nxg-python3-3.10.8-env:
+bin  etc  include  lib  sbin  share
+
+/nix/store/zy4m5q35q5v4jcdljick7ki5dxhr6kpk-python3-3.10.16-env:
+bin  include  lib  share
+~/workspace$ nix-shell -p python310
+
+[nix-shell:~/workspace]$ 
