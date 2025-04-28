@@ -133,3 +133,45 @@ class InputList:
             return True
         else:
             return False
+
+class OutputList:
+    def __init__(self, stagebox_manager):
+        self.outputs = {}
+        self.stagebox_manager = stagebox_manager
+
+    def add_output(self, mix_name, stagebox, output_num):
+        if mix_name in self.outputs:
+            print(f"Mix {mix_name} already exists.")
+        else:
+            return False
+
+        output_line = f"{stagebox}-{output_num}"
+        print(f"Trying output line: {output_line}")
+
+        if not self.stagebox_manager.available_output(output_line):
+            print(f"Output line {output_line} not available!")
+            return False
+
+        self.outputs[mix_name] = {
+            "stage_box": stagebox,
+            "output": output_num
+        }
+        self.stagebox_manager.used_output(output_line)
+        print(f"Added {mix_name} successfully.")
+        return True
+
+    def remove_output(self, mix_name):
+        if mix_name in self.outputs:
+            output_data = self.outputs[mix_name]
+            stagebox = output_data["stage_box"]
+            output_num = output_data["output"]
+            output_line = f"{stagebox}-{output_num}"
+
+            self.stagebox_manager.release_output(output_line)
+            del self.outputs[mix_name]
+
+            print(f"Removed {mix_name} successfully.")
+            return True
+        else:
+            print(f"Mix {mix_name} does not exist.")
+            return False

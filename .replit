@@ -1,17 +1,18 @@
+run = "Python3"
 [nix]
 channel = "stable-24_05"
+modules = ["python-3.10"]
+[deployment]
+run = ["sh", "-c", "Python3"]
 
 [workflows]
-runButton = "Start"
+runButton = "test page"
 
 [[workflows.workflow]]
-name = "Start"
-author = 40993066
+name = "test page"
 mode = "sequential"
+author = 40993066
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python main.py"
-
-[deployment]
-run = ["sh", "-c", "python main.py"]
+args = "python3 test_runner.py"
