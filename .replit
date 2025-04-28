@@ -1,9 +1,11 @@
-run = "Python3"
+
+run = "python3"
 [nix]
 channel = "stable-24_05"
-modules = ["python-3.10"]
+modules = ["python-3.10:pip"]
+
 [deployment]
-run = ["sh", "-c", "Python3"]
+run = ["sh", "-c", "python3"]
 
 [workflows]
 runButton = "test page"
