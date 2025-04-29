@@ -47,30 +47,34 @@ class StageBoxManager:
             elif box_type == "OUT":
                 self.outputs[line] = {'total': total, 'used': 0}
 
-    def available_input(self, input_line):
-        input_data = self.inputs.get(input_line)
-        return input_data and input_data['used'] < input_data['total']
+    def available_input(self, stagebox, input_num):
+        if stagebox in self.inputs:
+            used = self.inputs[stagebox].get("used", [])
+            return input_num not in used and input_num <= self.inputs[stagebox]["total"]
+        return False
 
-    def available_output(self, output_line):
-        output_data = self.outputs.get(output_line)
-        return output_data and output_data['used'] < output_data['total']
-
-    def used_input(self, input_line):
-        if self.available_input(input_line):
-            self.inputs[input_line]['used'] += 1
-            print(f"Used {input_line}: {self.inputs[input_line]['used']} used out of {self.inputs[input_line]['total']}")
+    def used_input(self, stagebox, input_num):
+        if self.available_input(stagebox, input_num):
+            self.inputs[stagebox].setdefault("used", []).append(input_num)
+            print(f"Used {stagebox}-{input_num}: {self.inputs[stagebox]['used']} used out of {self.inputs[stagebox]['total']}")
             return True
         else:
-            print(f"Input line {input_line} not available!")
+            print(f"Input line {stagebox}-{input_num} not available!")
             return False
 
-    def used_output(self, output_line):
-        if self.available_output(output_line):
-            self.outputs[output_line]['used'] += 1
-            print(f"Used {output_line}: {self.outputs[output_line]['used']} used out of {self.outputs[output_line]['total']}")
+    def available_output(self, stagebox, output_num):
+        if stagebox in self.outputs:
+            used = self.outputs[stagebox].get("used", [])
+            return output_num not in used and output_num <= self.outputs[stagebox]["total"]
+        return False
+
+    def used_output(self, stagebox, output_num):
+        if self.available_output(stagebox, output_num):
+            self.outputs[stagebox].setdefault("used", []).append(output_num)
+            print(f"Used output {stagebox}-{output_num}: {self.outputs[stagebox]['used']}")
             return True
         else:
-            print(f"Output line {output_line} not available!")
+            print(f"Output line {stagebox}-{output_num} not available!")
             return False
 
     def release_input(self, input_line):
@@ -82,19 +86,20 @@ class StageBoxManager:
             print(f"Input line {input_line} cannot be released!")
             return False
 
-    def release_output(self, output_line):
-        if output_line in self.outputs and self.outputs[output_line]['used'] > 0:
-            self.outputs[output_line]['used'] -= 1
-            print(f"Released {output_line}: {self.outputs[output_line]['used']} used out of {self.outputs[output_line]['total']}")
+    def release_output(self, stagebox):
+        if stagebox in self.outputs and self.outputs[stagebox]['used'] > 0:
+            self.outputs[stagebox]['used'] -= 1
+            print(f"Released one output from {stagebox}: now {self.outputs[stagebox]['used']} used out of {self.outputs[stagebox]['total']}")
             return True
         else:
-            print(f"Output line {output_line} cannot be released!")
+            print(f"Output from {stagebox} cannot be released or is already empty!")
             return False
 
 
 class InputList:
-    def __init__(self, stagebox_manager):
+    def __init__(self, stagebox_manager, mic_inventory):
         self.inputs = {}
+        self.mic_inventory = mic_inventory
         self.stagebox_manager = stagebox_manager
 
     def add_input(self, channel, instrument, mic, stagebox, input_num):
@@ -105,20 +110,20 @@ class InputList:
         input_line = f"{stagebox}-{input_num}"
         print(f"Trying input line: {input_line}")
 
-        if not self.stagebox_manager.available_input(input_line):
+        if input_line in self.inputs and self.inputs[input_line]['used'] < self.inputs[input_line]['total']:
+            self.inputs[input_line]['used'] += 1
+            self.inputs[channel] = {
+                "instrument": instrument,
+                "mic": mic,
+                "stage_box": stagebox,
+                "input": input_num
+            }
+            print(f"Added {channel} successfully.")
+            return True
+        else:
             print(f"Input line {input_line} not available!")
             return False
 
-        self.inputs[channel] = {
-            "instrument": instrument,
-            "mic": mic,
-            "stage_box": stagebox,
-            "input": input_num
-        }
-
-        self.stagebox_manager.used_input(input_line)
-        print(f"Added {channel} successfully.")
-        return True
 
     def remove_input(self, channel):
         if channel in self.inputs:
@@ -140,34 +145,32 @@ class OutputList:
         self.stagebox_manager = stagebox_manager
 
     def add_output(self, mix_name, stagebox, output_num):
+        output_line = f"{stagebox}-{output_num}"
+        print(f"Trying to add: {mix_name} - > {output_line}")
+
         if mix_name in self.outputs:
             print(f"Mix {mix_name} already exists.")
-        else:
             return False
 
-        output_line = f"{stagebox}-{output_num}"
-        print(f"Trying output line: {output_line}")
-
-        if not self.stagebox_manager.available_output(output_line):
+        if not self.stagebox_manager.available_output(stagebox, output_num):
             print(f"Output line {output_line} not available!")
             return False
 
+
+
         self.outputs[mix_name] = {
             "stage_box": stagebox,
-            "output": output_num
+            "output_num": output_num
         }
-        self.stagebox_manager.used_output(output_line)
+        self.stagebox_manager.used_output(stagebox, output_num)
+
         print(f"Added {mix_name} successfully.")
         return True
 
     def remove_output(self, mix_name):
         if mix_name in self.outputs:
-            output_data = self.outputs[mix_name]
-            stagebox = output_data["stage_box"]
-            output_num = output_data["output"]
-            output_line = f"{stagebox}-{output_num}"
-
-            self.stagebox_manager.release_output(output_line)
+            stagebox = self.outputs[mix_name]["stage_box"]
+            self.stagebox_manager.release_output(stagebox)
             del self.outputs[mix_name]
 
             print(f"Removed {mix_name} successfully.")

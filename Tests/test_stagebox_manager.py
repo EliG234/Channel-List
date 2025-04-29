@@ -1,4 +1,4 @@
-from Inventory import StageBoxManager
+from stage_management import StageBoxManager
 
 def test_stagebox_manager():
     # Step 1: Create a StageBoxManager instance

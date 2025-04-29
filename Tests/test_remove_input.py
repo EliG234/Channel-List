@@ -1,4 +1,4 @@
-from Inventory import StageBoxManager, InputList
+from stage_management import StageBoxManager, InputList
 
 
 def test_stagebox_manager():
