@@ -1,3 +1,5 @@
+from stage_management import MicInventory
+
 
 def send_update(message):
     print(f"[UPDATE SENT]: {message}")
@@ -48,6 +50,8 @@ def channel_menu():
     return input("Enter # of choice: ").strip()
 
 def run_cli():
+    mic_inventory = MicInventory()
+
     while True:
         user = main_menu()
         if user == "1" or user == "2":
@@ -65,15 +69,42 @@ def run_cli():
             while True:
                 mic_choice = mic_inventory_menu()
                 if mic_choice == "1":
-                    # Mic List
-                    pass
+                    print("Mic Inventory:")
+                    for model, count in mic_inventory.mics.items():
+                        print(f"{model}: {count}")
+                        break
+                    else:
+                        print("No mics in inventory")
+
                 elif mic_choice == "2":
-                    mic_name = input("Enter mic name: ").strip()
-                    #Add mic logic
-                    send_update(f"{mic_name} added to inventory")
+                    model = input("Enter mic model to add: ").strip()
+                    try:
+                        count = int(input("Enter Quantity: "))
+                        if model in mic_inventory.mics:
+                            mic_inventory.mics[model] += count
+                        else:
+                            mic_inventory.mics[model] = count
+                        send_update(f"{count} x {model} added to inventory")
+                    except ValueError:
+                        print("Invalid quantity.")
+
                 elif mic_choice == "3":
-                    # Remove mic logic
-                    pass
+                    model = input("Enter mic model to remove: ").strip()
+                    if model in mic_inventory.mics:
+                        try:
+                            count = int(input("Enter Quantity to remove: "))
+                            if mic_inventory.mics[model] >= count:
+                                mic_inventory.mics[model] -= count
+                                if mic_inventory.mics[model] == 0:
+                                    del mic_inventory.mics[model]
+                                send_update(f"{count} x {model} removed from inventory")
+                            else:
+                                print("Cannot remove more mics than available.")
+                        except ValueError:
+                            print("Invalid quantity. Try again...")
+                    else:
+                        print("Mic model not found in inventory.")
+
                 elif mic_choice == "4":
                     break
                 else:
@@ -135,6 +166,7 @@ def run_cli():
 
 if __name__ == "__main__":
     run_cli()
+
 
 
 
